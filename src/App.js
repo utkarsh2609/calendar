@@ -1,11 +1,12 @@
 import './App.css';
 
+import Header from './components/Header';
 import Month from './components/Month';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-xl font-medium text-black">Text</h1>
+      <Header />
       <Month month="January" days="30"/>
     </div>
   );
