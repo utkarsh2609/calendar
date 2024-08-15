@@ -19,8 +19,8 @@ const Header = () => {
                 </div>
                 <div className='flex justify-between items-center px-5 w-1/6'>
                     <div className='flex justify-evenly w-2/3'>
-                        <ArrowButton direction="left" size={24} />
                         <ArrowButton direction="right" size={24} />
+                        <ArrowButton direction="left" size={24} />
                     </div>
                     <div className='w-1/3'> {new Date().getFullYear()} </div>
                 </div>
